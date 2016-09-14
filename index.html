@@ -1,9 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+	<title>Assignment solution for module 3</title>
 </head>
 <body>
+	<nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<h1 class="pull-left">Food, LLC</h1>
+			<button id="button-nav" type="button" class="navbar-toggle collapse visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+          	</button>
 
+          	<div id="collapsable-nav" class="collapse navbar-collapse">
+	            <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+		            <li>
+		              <a href="#chicken-cat">
+		                Chicken
+		              </a>
+		            </li>
+		            <li>
+		              <a href="#beef-cat">
+		                Beef</a>
+		            </li>
+		            <li>
+		              <a href="#sushi-cat">
+		                Sushi</a>
+		            </li>
+	          	</ul><!-- #nav-list -->
+	        </div><!-- .collapse .navbar-collapse -->
+		</div>
+	</nav>
+
+	<div id="main-content" class="container">
+		<div class="rows">
+			<h2 id="title-text" class="col-xs-12 text-center">Our Menu</h2>
+		</div>
+		<div class="rows">
+			<section class="col-xs-12">
+				<div id="chicken-cat" class="purple-bg">
+					<h3 class="text-center">Chicken</h3>
+					<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+				</div>
+			</section>
+			<section class="col-xs-12">
+				<div id="beef-cat" class="cyan-bg">
+					<h3 class="text-center">Beef</h3>
+					<p>Nam faucibus vehicula mattis. Duis vitae efficitur dolor. Aenean pulvinar, nunc non elementum semper, odio urna porttitor libero, ut faucibus risus turpis quis est. Etiam eget metus neque. Mauris iaculis sapien leo. Maecenas non nulla ipsum. Quisque maximus euismod felis. Maecenas eget erat vitae massa malesuada eleifend. Suspendisse eget mollis nulla. Cras aliquam pellentesque mi, id auctor mi accumsan ac. Duis nec ultricies leo, a ullamcorper ex. Quisque pretium ultricies porttitor. Aenean tristique semper venenatis. Praesent pulvinar, lacus sed malesuada bibendum, nisi magna porta lacus, ac rhoncus enim ante sit amet purus.</p>
+				</div>
+			</section>
+			<section class="col-xs-12">
+				<div id="sushi-cat" class="yellow-bg">
+					<h3 class="text-center">Sushi</h3>
+					<p>Vivamus nec libero ultrices, suscipit arcu nec, ullamcorper nunc. Pellentesque justo ante, accumsan nec nulla lobortis, porttitor aliquet justo. Etiam egestas leo et nisl dapibus, sed imperdiet ante laoreet. Aliquam nec tempus ante, sed commodo sapien. Proin vulputate laoreet diam eget congue. Mauris consequat vitae urna non vestibulum. Mauris tempus vel turpis eget pretium. Nulla vel justo quis felis hendrerit commodo. Nullam nisl nisl, maximus at molestie eget, iaculis nec mi. Morbi pellentesque nisi vel nunc imperdiet tempor. Mauris scelerisque massa risus, in accumsan diam bibendum a. Donec viverra dui eget sapien efficitur, a pretium lectus euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel rutrum turpis. Nunc aliquam, diam eu porttitor molestie, velit ipsum fermentum nibh, nec tristique velit turpis vel ante.</p>
+				</div>
+			</section>
+		</div>
+	</div>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

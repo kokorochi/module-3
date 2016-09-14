@@ -1,0 +1,53 @@
+*{
+	padding : 0;
+	margin : 0;
+	box-sizing : border-box;
+}
+
+body{
+	padding-top : 70px;
+}
+
+/* HEADER */
+#collapsable-nav {
+	margin-top: 70px;
+}
+
+#nav-list {
+	/*position: static;*/
+}
+/* END HEADER*/
+
+/* HOME PAGE */
+#button-nav {
+	margin-top: 20px;
+}
+
+h2.text-center{
+	margin-top: 15px;
+}
+
+.text-center {
+	margin-top : 0;
+}
+
+#main-content {
+	display: block;
+}
+
+.purple-bg, .cyan-bg, .yellow-bg {
+	padding : 15px;
+}
+
+.purple-bg {
+	background-color : #f8d3ed;
+}
+
+.cyan-bg {
+	background-color : #00ffdf;
+}
+
+.yellow-bg {
+	background-color : #f8f4d3;
+}
+/* END HOME PAGE*/
